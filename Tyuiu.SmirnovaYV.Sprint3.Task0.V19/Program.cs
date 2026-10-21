@@ -21,9 +21,9 @@ namespace Tyuiu.SmirnovaYV.Sprint3.Task0.V19
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                         *");
             Console.WriteLine("****************************************************************************");
             int startValue = 1;
-            int stopValue = 10;
-            Console.WriteLine("Старт шага = " + startValue);
-            Console.WriteLine("Конец шага = " + stopValue);
+            int stopValue = 10; 
+            Console.WriteLine("Старт шага =  " + startValue);
+            Console.WriteLine("Конец шага =  " + stopValue);
             Console.WriteLine("****************************************************************************");
             Console.WriteLine("* Результат:                                                               *");
             Console.WriteLine("****************************************************************************");
