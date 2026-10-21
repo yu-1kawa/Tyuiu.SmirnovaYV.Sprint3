@@ -1,0 +1,19 @@
+﻿using Tyuiu.SmirnovaYV.Sprint3.Task1.V28.Lib;
+namespace Tyuiu.SmirnovaYV.Sprint3.Task1.V28.Test
+{
+    [TestClass]
+    public sealed class DataServiceTest
+    {
+        [TestMethod]
+        public void ValidGetSumSeries()
+        {
+            DataService ds = new DataService();
+            double value = 0.5;
+            int startValue = 1;
+            int endValue = 18;
+            double res= ds.GetSumSeries(value, startValue, endValue);
+            double wait = -0.186;
+            Assert.AreEqual(wait, res);
+        }
+    }
+}
