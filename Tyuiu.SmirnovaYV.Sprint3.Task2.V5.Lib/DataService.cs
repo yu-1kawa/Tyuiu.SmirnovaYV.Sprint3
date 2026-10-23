@@ -12,7 +12,7 @@ namespace Tyuiu.SmirnovaYV.Sprint3.Task2.V5.Lib
                 SumSeries = SumSeries + (Math.Pow(value, k) + 1) * Math.Cos(k);
                 k++;
             }
-            while (k < stopValue);
+            while (k <= stopValue);
             return Math.Round(SumSeries, 3);
         }
     }
